@@ -47,5 +47,5 @@ dependencies {
 
     //cashfree
 
-    implementation 'com.cashfree.pg:android-sdk:1.7.15'
+    implementation 'com.cashfree.pg:android-sdk:1.7.19'
 }

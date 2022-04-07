@@ -103,9 +103,9 @@ public class MainActivity extends AppCompatActivity {
                 //Log.i("Token inside Switch", token);
                 cfPaymentService.selectUpiClient("com.google.android.apps.nbu.paisa.user");
                 cfPaymentService.upiPayment(MainActivity.this, getInputParams(), token, stage);
-                Log.i("TAG", "paymethod: ");
-                Log.i("TAG", token);
-                cfPaymentService.doPayment(MainActivity.this, params, token, stage);
+//                Log.i("TAG", "paymethod: ");
+//                Log.i("TAG", token);
+//                cfPaymentService.doPayment(MainActivity.this, params, token, stage);
                 cfPaymentService.setOrientation(0);
 
                 break;
